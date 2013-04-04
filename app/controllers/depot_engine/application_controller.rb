@@ -1,6 +1,7 @@
 module DepotEngine
   class ApplicationController < ActionController::Base
     protect_from_forgery
+    #layout 'application'
 
     private
       def current_cart 
